@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AERA — essential skincare for naturally radiant skin." />
+  <title>AERA — Essential Skincare</title>
+
+  <!-- Можно заменить шрифты на свои -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-loader" aria-hidden="true">
+    <div class="loader-word">AERA</div>
+    <div class="loader-line"><span></span></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="AERA home">AERA</a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#collection">Shop</a>
+      <a href="#philosophy">About</a>
+      <a href="#journal">Journal</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="bag" href="#collection">Bag <span>0</span></a>
+  </header>
+
+  <main>
+    <!-- 01 / HERO -->
+    <section class="hero" id="home">
+      <div class="hero-media">
+        <!-- ЗАМЕНИ НА СВОЮ ФОТОГРАФИЮ -->
+        <img src="assets/hero.png" alt="AERA skincare ritual" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal">Essential skincare / 2026</p>
+
+        <h1 class="hero-title split-title" data-split>
+          AERA
+        </h1>
+
+        <p class="hero-copy reveal">
+          essential care for naturally radiant skin
+        </p>
+
+        <a class="pill-button reveal" href="#collection">
+          <span>Explore</span>
+          <span class="arrow">↘</span>
+        </a>
+      </div>
+
+      <div class="hero-side-note reveal">
+        <span>01</span>
+        <span>Skin, reimagined.</span>
+      </div>
+
+      <a class="scroll-cue" href="#philosophy" aria-label="Scroll to philosophy">
+        <span>Scroll</span>
+        <i></i>
+      </a>
+    </section>
+
+    <!-- 02 / PHILOSOPHY -->
+    <section class="section philosophy" id="philosophy">
+      <div class="section-number reveal">02 / Philosophy</div>
+
+      <div class="philosophy-grid">
+        <div class="philosophy-copy">
+          <h2 class="display-title reveal">
+            The Aera<br />
+            Philosophy
+          </h2>
+
+          <div class="short-line reveal"></div>
+
+          <h3 class="reveal">Beauty begins with balance.</h3>
+          <p class="reveal">
+            Aera creates essential skincare designed to work with your skin,
+            not against it. Considered formulas, sensorial textures and
+            uncomplicated rituals — made for everyday life.
+          </p>
+
+          <a class="text-link reveal" href="#manifesto">
+            Discover our philosophy <span>→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 03 / COLLECTION -->
+    <section class="section collection" id="collection">
+      <div class="collection-head">
+        <div class="section-number dark reveal">03 / The essentials</div>
+        <h2 class="display-title center reveal">Essentials</h2>
+        <p class="collection-intro reveal">
+          Three daily essentials. One considered ritual.
+        </p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card reveal" data-product="01">
+          <a href="#" class="product-visual">
+            <img src="assets/ess.png" alt="AERA Radiance Serum" />
+            <span class="product-index">01</span>
+            <span class="product-hover">View product ↗</span>
+          </a>
+          <div class="product-meta">
+            <div>
+              <h3>Radiance Serum</h3>
+              <p>Lightweight daily treatment</p>
+            </div>
+            <span>30 ml</span>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-product="02">
+          <a href="#" class="product-visual">
+            <img src="assets/awewe.png" alt="AERA Hydra Intense Cream" />
+            <span class="product-index">02</span>
+            <span class="product-hover">View product ↗</span>
+          </a>
+          <div class="product-meta">
+            <div>
+              <h3>Hydra Intense Cream</h3>
+              <p>Barrier-support moisturizer</p>
+            </div>
+            <span>50 ml</span>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-product="03">
+          <a href="#" class="product-visual">
+            <img src="assets/rfdte.png" alt="AERA Cleansing Milk" />
+            <span class="product-index">03</span>
+            <span class="product-hover">View product ↗</span>
+          </a>
+          <div class="product-meta">
+            <div>
+              <h3>Cleansing Milk</h3>
+              <p>Soft everyday cleanser</p>
+            </div>
+            <span>150 ml</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 04 / MOTION -->
+    <section class="motion-section" id="motion">
+      <div class="motion-bg-word" aria-hidden="true">AERA</div>
+
+      <div class="motion-copy">
+        <div class="section-number light reveal">04 / Aera in motion</div>
+        <p class="eyebrow light reveal">The everyday ritual</p>
+
+        <h2 class="motion-title reveal">
+          Beauty that<br />
+          moves with you.
+        </h2>
+
+        <p class="motion-text reveal">
+          Fluid textures. Quiet performance. A ritual designed around the
+          natural rhythm of your skin.
+        </p>
+
+        <a class="outline-button reveal" href="#ingredients">
+          Explore the ritual <span>↘</span>
+        </a>
+      </div>
+
+      <div class="bottle-stage">
+        <!-- Можно заменить bottle.png на PNG с прозрачным фоном -->
+        <img class="motion-bottle" src="assets/rfdte-no-bg-preview (carve.photos).png" alt="AERA product bottle" />
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="orb orb-three"></div>
+      </div>
+    </section>
+
+    <!-- 05 / TEXTURE -->
+    <section class="texture-section">
+      <div class="texture-full">
+        <img src="assets/cream-texture.jpg" alt="AERA cream texture" />
+      </div>
+
+      <div class="texture-full-overlay"></div>
+
+      <div class="texture-full-copy">
+        <div class="section-number light reveal">05 / Sensory</div>
+        <h2 class="texture-title reveal">
+          Texture is part<br />
+          of the ritual.
+        </h2>
+
+        <p class="reveal">
+          Lightweight formulas designed to melt into the skin and leave
+          nothing behind but comfort.
+        </p>
+      </div>
+    </section>
+
+    <!-- 06 / INGREDIENTS -->
+    <section class="section ingredients" id="ingredients">
+      <div class="ingredients-heading">
+        <div class="section-number dark reveal">06 / What's inside</div>
+        <h2 class="display-title reveal">Thoughtful<br />by design.</h2>
+      </div>
+
+      <div class="ingredient-list">
+        <article class="ingredient-row reveal" data-image="assets\asfa.png">
+          <span class="ingredient-no">01</span>
+          <h3>Hyaluronic Acid</h3>
+          <p>Deep hydration</p>
+          <span class="ingredient-arrow">↗</span>
+        </article>
+
+        <article class="ingredient-row reveal" data-image="assets/dfg.png">
+          <span class="ingredient-no">02</span>
+          <h3>Niacinamide</h3>
+          <p>Balance & strengthen</p>
+          <span class="ingredient-arrow">↗</span>
+        </article>
+
+        <article class="ingredient-row reveal" data-image="assets/vf.png">
+          <span class="ingredient-no">03</span>
+          <h3>Squalane</h3>
+          <p>Smooth & protect</p>
+          <span class="ingredient-arrow">↗</span>
+        </article>
+
+        <article class="ingredient-row reveal" data-image="assets/mg.png">
+          <span class="ingredient-no">04</span>
+          <h3>Panthenol</h3>
+          <p>Calm & restore</p>
+          <span class="ingredient-arrow">↗</span>
+        </article>
+      </div>
+
+      <div class="ingredient-preview" aria-hidden="true">
+        <img src="assets/ingredient-01.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- 07 / MANIFESTO -->
+    <section class="manifesto" id="manifesto">
+      <div class="manifesto-top">
+        <span class="section-number reveal">07 / Our approach</span>
+        <span class="manifesto-caption reveal">AERA / ESSENTIAL CARE</span>
+      </div>
+
+      <h2 class="manifesto-title">
+        <span class="reveal">Less noise.</span>
+        <span class="reveal italic">More care.</span>
+      </h2>
+
+      <div class="manifesto-bottom">
+        <p class="reveal">
+          We believe the most effective ritual is the one you actually want
+          to return to — simple, tactile and intentional.
+        </p>
+
+        <a class="text-link reveal" href="#journal">Read our story <span>→</span></a>
+      </div>
+    </section>
+
+    <!-- 08 / JOURNAL / CAMPAIGN -->
+    <section class="campaign" id="journal">
+      <div class="campaign-media">
+        <!-- Можно поставить сюда превью видео -->
+        <img src="assets/video.png" alt="AERA campaign" />
+        <div class="campaign-overlay"></div>
+      </div>
+
+      <div class="campaign-copy">
+        <div class="section-number light reveal">08 / Campaign 01</div>
+        <p class="eyebrow light reveal">The everyday ritual</p>
+        <h2 class="campaign-title reveal">AERA / 01</h2>
+        <button class="play-button reveal" type="button" aria-label="Play campaign">
+          <span>Play film</span>
+          <i>▶</i>
+        </button>
+      </div>
+    </section>
+
+    <!-- 09 / NEWSLETTER -->
+    <section class="newsletter" id="contact">
+      <div class="section-number dark reveal">09 / Stay in the Aera</div>
+
+      <div class="newsletter-grid">
+        <h2 class="display-title reveal">
+          Notes on skin,<br />
+          rituals & everyday beauty.
+        </h2>
+
+        <form class="newsletter-form reveal">
+          <label for="email">Join the AERA journal</label>
+          <div class="email-row">
+            <input id="email" type="email" placeholder="Email address" required />
+            <button type="submit" aria-label="Subscribe">→</button>
+          </div>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">AERA</div>
+
+    <div class="footer-grid">
+      <div>
+        <p>Skin, reimagined.</p>
+      </div>
+
+      <div>
+        <a href="#collection">Shop</a>
+        <a href="#philosophy">About</a>
+        <a href="#journal">Journal</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">TikTok</a>
+      </div>
+
+      <div class="footer-meta">
+        <span>© 2026 AERA</span>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
